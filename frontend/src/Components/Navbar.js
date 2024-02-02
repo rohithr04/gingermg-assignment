@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className="relative flex h-16 items-center justify-between">
           <div className='flex justify-center items-center gap-10 text-xs md:text-lg'>
             {/* <div className='flex justify-center items-center gap-2'><FaGear size={28}/> Setting</div> */}
-            <a href="mailto:vivekanandaj867@gmail.com" target='_blank' rel="noopener noreferrer">
+            <a href="mailto:rrohithramesh04@gmail.com" target='_blank' rel="noopener noreferrer">
             <div className='flex justify-center items-center gap-2'><MdContactMail size={28}/> Developer Contact</div>
             </a>
           </div>

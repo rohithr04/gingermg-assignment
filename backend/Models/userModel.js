@@ -27,8 +27,8 @@ async function initializeUserTable() {
                 age INT,
                 dob DATE,
                 contact VARCHAR(20),
-                address VARCHAR(255),
-                image_url VARCHAR(255),
+                address VARCHAR(500),
+                image_url VARCHAR(500),
                 description TEXT
             );
         `);

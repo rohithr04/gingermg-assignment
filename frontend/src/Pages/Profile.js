@@ -123,7 +123,7 @@ const Profile = () => {
           <button
             type="button"
             onClick={handleUpdateProfile}
-            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 focus:outline-none"
+            className="bg-green-500 text-white px-10 py-2 rounded hover:bg-green-600 focus:outline-none"
           >
             Save
           </button>
@@ -131,7 +131,7 @@ const Profile = () => {
           <button
             type="button"
             onClick={handleEditClick}
-            className="bg-gray-300 text-gray-800 px-4 py-2 rounded hover:bg-gray-400 focus:outline-none"
+            className="bg-black text-white px-10 py-2 rounded  focus:outline-none"
           >
             Edit
           </button>

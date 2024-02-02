@@ -65,7 +65,7 @@ const Login = () => {
     <div>
       <form onSubmit={handleLogin}>
         <div className="container px-5 py-24 mx-auto flex ">
-          <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col mx-auto w-full mt-10 md:mt-0 shadow-2xl">
+          <div className="lg:w-1/2 bg-white rounded-lg p-8 py-12 flex flex-col mx-auto w-full mt-10 md:mt-0 shadow-2xl">
             <h2 className="text-gray-900 text-lg mb-1 font-medium title-font text-center">
               Login
             </h2>
@@ -102,7 +102,7 @@ const Login = () => {
 
             <button
               type="submit"
-              className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              className="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
             >
               Log In
             </button>

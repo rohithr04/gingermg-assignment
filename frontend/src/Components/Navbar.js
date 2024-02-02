@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 // import { FaGear } from 'react-icons/fa6';
-import { MdContactMail } from 'react-icons/md';
+import { RiContactsFill } from "react-icons/ri";
 import { Link, useNavigate } from 'react-router-dom';
 import { useUser } from '../ContextProvider/UserContext';
 
@@ -40,7 +40,7 @@ const Navbar = () => {
           <div className='flex justify-center items-center gap-10 text-xs md:text-lg'>
             {/* <div className='flex justify-center items-center gap-2'><FaGear size={28}/> Setting</div> */}
             <a href="mailto:rrohithramesh04@gmail.com" target='_blank' rel="noopener noreferrer">
-            <div className='flex justify-center items-center gap-2'><MdContactMail size={28}/> Developer Contact</div>
+            <div className='flex justify-center items-center gap-2'><RiContactsFill size={28}/> Developer Contact</div>
             </a>
           </div>
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
